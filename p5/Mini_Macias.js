@@ -30,7 +30,7 @@ function preload() {
     imagen[NUM] = loadImage('data/a' + NUM + '.png');  
   }
   Click = loadSound('data/Click.mp3');                 
-  suspenso = loadSound('data/Suspenso.mp3');           
+  suspenso = loadSound('data/suspenso.mp3');           
 }
 
 function setup() {
@@ -245,3 +245,4 @@ function fondo(imagen, texto, textsize, posX, posY, posXB, posYB, tamXB, tamYB, 
 function sobreMouse(posX, posY, tamX, tamY) {
   return mouseX > posX && mouseX < posX + tamX && mouseY > posY && mouseY < posY + tamY;
 }
+
