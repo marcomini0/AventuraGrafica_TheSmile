@@ -27,10 +27,10 @@ let frases = [
 
 function preload() {
   for (let NUM = 0; NUM < 15; NUM++) {
-    imagen[NUM] = loadImage('./data/a' + NUM + '.png');   // ← CORREGIDO
+    imagen[NUM] = loadImage('data/a' + NUM + '.png');  
   }
-  Click = loadSound('./data/Click.mp3');                   // ← CORREGIDO
-  suspenso = loadSound('./data/Suspenso.mp3');             // ← CORREGIDO
+  Click = loadSound('data/Click.mp3');                 
+  suspenso = loadSound('data/Suspenso.mp3');           
 }
 
 function setup() {
